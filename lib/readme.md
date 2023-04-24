@@ -10,9 +10,6 @@ To install the package, execute the following in a React project terminal
 # Documentation
 https://brandon-kong.github.io/simple-styles/
 
-# NPM Registries
-https://www.npmjs.com/package/@brandonkong/simple-styles
-
 # Contents
 
 This library is equipped with:
