@@ -2,17 +2,6 @@
 
 A React UI library designed for and by me to minimize redundancy in the web development process.
 <br />
-To install the package, execute the following in a React project terminal
-<br />
-### <code>npm i @brandonkong/simple-styles</code>
-<br />
-
-# Documentation
-https://brandon-kong.github.io/simple-styles/
-
-# NPM Registry
-https://www.npmjs.com/package/@brandonkong/simple-styles
-
 # Contents
 
 This library is equipped with:
