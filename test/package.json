@@ -1,14 +1,14 @@
 {
-  "name": "@brandonkong/simple-styles",
-  "version": "1.0.1",
+  "name": "test",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "brandon-kong",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0"
+    "@brandonkong/simple-styles": "^1.0.4"
   }
 }
