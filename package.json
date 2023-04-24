@@ -1,0 +1,21 @@
+{
+  "name": "@brandonkong/simple-styles",
+  "version": "1.0.9",
+  "description": "A React UI library designed for and by me to minimize redundancy in the web development process.\r <br />\r To install the package, execute the following in a React project terminal\r <br />\r ### <code>npm i @brandonkong/simple-styles</code>\r <br />",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf 'dist' && babel src/lib -d dist --copy-files"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
