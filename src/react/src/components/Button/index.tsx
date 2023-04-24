@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
+import styles from './button.module.css';
+
 export interface ButtonProps {
-  label: string;
   className: string;
+  children: React.ReactNode;
 }
 
 export default class Button extends Component<ButtonProps> {
@@ -12,8 +14,8 @@ export default class Button extends Component<ButtonProps> {
 
     render () {
         return (
-            <button className={"" + this.props.className}>
-                {this.props.label}
+            <button className={[styles.btn, this.props.className].join(' ')}>
+                { this.props.children }
             </button>
         )
     }

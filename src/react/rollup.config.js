@@ -1,6 +1,7 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
+import postcss from 'rollup-plugin-postcss';
 import dts from 'rollup-plugin-dts';
 
 import config from './package.json' assert { type: 'json' };
@@ -28,6 +29,9 @@ export default [
             typescript({
                 tsconfig: './tsconfig.json',  
             }),
+            postcss({
+                autoModules: true,
+            })
         ]
     },
 
@@ -40,5 +44,6 @@ export default [
             }
         ],
         plugins: [dts()],
+        external: [/\.(css|less|scss)$/],
     }
 ]
