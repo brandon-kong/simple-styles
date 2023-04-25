@@ -50,4 +50,4 @@ This library is equipped with:
 
 I recommend using this library if you want a quick and easy styling to common elements that you'll likely use in your web development experiences. It's a quick and easy plug-n-play solution, and the UI elements don't look too shabby either :D
 
-MIT © [Segun Adebayo](https://github.com/segunadebayo)
+MIT © [Brandon Kong](https://github.com/brandon-kong)
