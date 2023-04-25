@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://brandon-kong.github.io/simple-styles/" target="_blank" rel="noopener noreferrer">
-<img src='./.assets/logo-banner.svg' height='250' />
+<img src='./assets/logo-banner.svg' height='250' />
 </a>
 </div>
 
