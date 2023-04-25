@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import styles from './button.module.css';
+import '../../globals.css';
 
 export interface ButtonProps {
-  className: string;
-  children: React.ReactNode;
+    className: string;
+    children: React.ReactNode;
 }
 
 export default class Button extends Component<ButtonProps> {
@@ -14,7 +14,7 @@ export default class Button extends Component<ButtonProps> {
 
     render () {
         return (
-            <button className={[styles.btn, this.props.className].join(' ')}>
+            <button className={['ss-btn', this.props.className].join(' ')}>
                 { this.props.children }
             </button>
         )
