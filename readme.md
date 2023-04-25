@@ -1,7 +1,9 @@
-# simple-styles
+<div align="center">
+<img src='./.assets/logo-banner.svg' height='300' />
+</div>
 
-<img src='./.assets/logo-svg.svg' height='300' />
-A React UI library designed for and by me to minimize redundancy in the web development process.
+
+### A React UI library designed for and by me to minimize redundancy in the web development process.
 <br />
 
 # Contents
