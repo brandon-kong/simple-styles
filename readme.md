@@ -4,8 +4,20 @@
 </a>
 </div>
 
+<h3 align="center">
+A React UI library designed <code>for developers</code>
+<code>by developers</code> to minimize redundancy in the web development process.
+</h3>
 
-### A React UI library designed for and by me to minimize redundancy in the web development process.
+<p align="center">
+<img alt="npm (scoped)" src="https://img.shields.io/npm/v/@simple-styles/react?color=%2300a99d&label=version&logo=simple-styles" />
+  <a href="">
+   <img alt="NPM" src="https://img.shields.io/npm/l/@simple-styles/react?color=%2300a99d" />
+  </a>
+  <img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@simple-styles/react.svg?style=flat&color=%2300a99d" />
+ <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/brandon-kong/simple-styles?color=%2300a99d" />
+</p>
+
 <br />
 
 # Contents
