@@ -5,7 +5,7 @@ import { twMerge } from 'tailwind-merge'
 import { cva, type VariantProps } from 'class-variance-authority';
 
 const variants = cva(
-    'primary',
+    'w-full bg-blue-500 text-white rounded-md shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300 ease-in-out',
     {
         variants: {
            variant: {
@@ -28,7 +28,8 @@ const variants = cva(
            }
         },
         defaultVariants: {
-            variant: 'primary'
+            variant: 'primary',
+            size: 'md'
         }
     }
 )
@@ -39,11 +40,11 @@ VariantProps<typeof variants>
 {}
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-    ({ variant, children, ...props }, ref) => {
+    ({ variant, size, children, className, ...props }, ref) => {
         return (
             <button 
                 ref={ref}
-                className={twMerge(variants({ variant }))}
+                className={twMerge(variants({ variant, size, className }))}
                 {...props}
             >
                 {children}
