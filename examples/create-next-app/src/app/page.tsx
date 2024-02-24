@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from '../../../../src/react/button';
+import Button from '@simple-styles/react/dist/button';
 
 export default function Home() {
   return (

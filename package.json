@@ -1,10 +1,10 @@
 {
   "name": "@simple-styles/react",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -17,6 +17,13 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.58",
-    "prettier": "3.2.5"
-  }
+    "prettier": "3.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts"
 }
