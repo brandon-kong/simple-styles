@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from '../../../../src/react/ui/button';
+import Button from '../../../../src/react/button';
 
 export default function Home() {
   return (
