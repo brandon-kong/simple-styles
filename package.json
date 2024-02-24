@@ -9,9 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "react": "^18.2.0",
+    "tailwind-merge": "^2.2.1",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
+    "@types/react": "^18.2.58",
     "prettier": "3.2.5"
   }
 }
