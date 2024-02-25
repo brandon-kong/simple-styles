@@ -1,1 +1,3 @@
-import { default as Button, ButtonProps, ButtonVariants } from './button';
+import { default as Button, ButtonProps } from './button';
+
+export { Button, ButtonProps };

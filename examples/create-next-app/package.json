@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@simple-styles/react": "^1.0.7",
+    "@simple-styles/react": "^1.0.8",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18"
